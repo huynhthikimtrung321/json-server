@@ -1,9 +1,24 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "tasks": [
+    {
+      "id": "1",
+      "name": "Learn English",
+      "isCompleted": false
+    },
+    {
+      "id": "2",
+      "name": "Read book",
+      "isCompleted": true
+    },
+    {
+      "id": "3",
+      "name": "Code",
+      "isCompleted": true
+    },
+    {
+      "id": "4",
+      "name": "Do exercise",
+      "isCompleted": false
+    }
+  ]
 }
